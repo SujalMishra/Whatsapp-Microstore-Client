@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(30, 20, 20, 0.95);
+  background: linear-gradient(135deg, #f8ede3, #fdf6ec);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  color: white;
+  background: linear-gradient(90deg, #c28f2c, #d4a24d); /* Gold-tone gradient */
+  border: none;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  padding: 0.75em 1.5em;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f8ede3, #fdf6ec);
+}
